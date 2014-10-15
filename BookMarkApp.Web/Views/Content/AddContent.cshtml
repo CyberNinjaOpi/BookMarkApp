@@ -1,0 +1,13 @@
+﻿@model int
+
+<h2>Add Content</h2>
+<div class="col-md-10">
+	<form method="post">
+		<input type="text" name="title" placeholder="Enter Title" style="width:100%" /><br />
+		<input type="text" name="image" placeholder="Enter Image Url" style="width:100%" /><br />
+		<input type="text" name="link" placeholder="Enter Url" style="width:100%" /><br />
+		<br />
+		<input type="hidden" name="categoryId" value="@Model" />
+		<input type="submit" class="btn btn-sm btn-success" value="Submit New Content" />
+	</form>
+</div>

@@ -1,0 +1,41 @@
+﻿@model BookMarkApp.Web.Models.ContentVM
+
+<h2>Details for @Model.Category.Title</h2>
+<div class="row table-bordered">
+	<div class="col-md-10 text-center">
+		<br /><br />
+		<div class="row">
+			<div>
+				<h2>@Model.Category.Title</h2>
+			</div>
+			<div>
+				<button class="btn btn-warning pull-right fa fa-pencil" onclick="location.href='/Category/EditCategory/@Model.Category.Id'"> Category</button><br /><br />
+				<button class="btn btn-danger pull-right fa fa-trash" onclick="location.href='/Category/DeleteCategory/@Model.Category.Id'"> Category</button>
+			</div><br /><br />
+
+			<div>
+				<div class="text-center" colspan="2">
+					<button class="btn btn-success pull-right fa fa-plus" onclick="location.href='/Content/AddContent/@Model.Category.Id'"> Content</button>
+				</div>
+				<div>
+					<table class="table table-hover">
+						<tr class="TitleContainer">Content List</tr>
+						<tr>
+							<td>Logo</td>
+							<td>Website </td>
+						</tr>
+						@foreach (var c in @Model.Category.contents)
+						{
+							<tr onclick="location.href='/Content/ContentDetail/@c.Id'">
+								<td><img class="ImageContainer" src="@c.Image" /></td>
+								<td class="text-center">@c.Title</td>
+							</tr>
+
+						}
+					</table>
+				</div>
+			</div>
+		</div>
+
+	</div>
+</div>

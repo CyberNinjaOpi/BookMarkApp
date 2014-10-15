@@ -1,0 +1,14 @@
+﻿.ImageContainer {
+	/*display: block;*/
+	width: 25%;
+	height: 150px;
+	border-radius: 50%;
+}
+
+.TitleContainer {
+	border-radius: 37px;
+	padding-top: 1px;
+	padding-bottom: 0;
+	background-color: #808080;
+	color: #FCFCFC;
+}
