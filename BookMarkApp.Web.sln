@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookMarkApp.Web", "BookMarkApp.Web\BookMarkApp.Web.csproj", "{D4368EE8-A4A1-4888-A987-5C039D8375C2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookMarkApp.Db", "BookMarkApp.Db\BookMarkApp.Db.csproj", "{7D50D756-FFA8-4624-BA9C-F48769F13A58}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookMarkApp.DataModels", "BookMarkApp.DataModels\BookMarkApp.DataModels.csproj", "{791932C5-9D60-4F1E-A0A8-2EA0A8D291D0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D4368EE8-A4A1-4888-A987-5C039D8375C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4368EE8-A4A1-4888-A987-5C039D8375C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4368EE8-A4A1-4888-A987-5C039D8375C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4368EE8-A4A1-4888-A987-5C039D8375C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D50D756-FFA8-4624-BA9C-F48769F13A58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D50D756-FFA8-4624-BA9C-F48769F13A58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D50D756-FFA8-4624-BA9C-F48769F13A58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D50D756-FFA8-4624-BA9C-F48769F13A58}.Release|Any CPU.Build.0 = Release|Any CPU
+		{791932C5-9D60-4F1E-A0A8-2EA0A8D291D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{791932C5-9D60-4F1E-A0A8-2EA0A8D291D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{791932C5-9D60-4F1E-A0A8-2EA0A8D291D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{791932C5-9D60-4F1E-A0A8-2EA0A8D291D0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
